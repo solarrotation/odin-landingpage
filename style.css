@@ -3,7 +3,10 @@
     color: white;
     font-family: 'Roboto', sans-serif;
     display: flex;
-    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     
 }
 
@@ -20,10 +23,12 @@
     padding-right: 20px;
 }
 
-.intro {
+#title {
     font-size: 48px;
     font-weight: 900;
-    
+    margin-top: 0px;
+    margin-bottom: 0px;
+
 }
 
 .subtext {
@@ -32,6 +37,8 @@
     
 }
 
-.hero-image {
-   align-self: flex-end;
+.right {
+    display: flex;
+    align-items: center;
 }
+
