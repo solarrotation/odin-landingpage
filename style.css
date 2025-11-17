@@ -183,3 +183,69 @@ body {
     justify-content: flex-end;
     font-size: 30px;
 }
+
+/*Call to Action*/
+
+.cta-section {
+    display: flex;
+    background-color: white;
+    padding: 100px;
+    justify-content: center;
+}
+
+.cta-box {
+    display: flex;
+    background-color: #3882F6;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-direction: column;
+}
+
+.cta-title {
+    display: flex;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.cta-para {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin-top: 0;
+    padding-top: 5px;
+}
+
+.cta-button {
+    display: flex;
+    background-color: #3882F6;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.cta-words {
+    display: flex;
+}
+
+.cta-button > button {
+    background-color: #3882F6;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100px;
+}
