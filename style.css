@@ -155,3 +155,31 @@ body {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
 }
+
+/*Quote Section*/
+
+.quote-section {
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 100px;
+    flex-direction: column;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.quote-author {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    justify-content: flex-end;
+    font-size: 30px;
+}
